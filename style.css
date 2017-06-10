@@ -1,25 +1,37 @@
 body {
     font-size: 16px;
     font-family: "Arial", sans-serif;
+    color: #FFFFFF;
+    background-color: #212121;
 }
 .content {
     width: 500px;
 }
-
 @media only screen and (max-width: 500px) {
     /* For mobile phones: */
     .content {
         width: 100%;
     }
 }
-
 .center {
     text-align: center;
     margin: auto;
 }
-.medium {
-    font-size: 20px; /* 75% of the baseline */
+.show_title {
+    font-size: 24px;
 }
-.large {
-    font-size: 24px; /* 125% of the baseline */
+.show_category {
+    font-size: 20px;
+}
+.show_description {
+    opacity: 0.7;
+    padding-bottom: 25px;
+}
+.watch_now_button {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    background: #9C27B0;
+    width: 300px;
+    border-radius: 25px;
 }
