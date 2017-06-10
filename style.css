@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
+.content {
+    width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .content {
+        width: 100%;
+    }
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+.medium {
+    font-size: 20px; /* 75% of the baseline */
+}
+.large {
+    font-size: 24px; /* 125% of the baseline */
+}
